@@ -33,7 +33,7 @@
 ## よく使うコマンド
 
 ```
-gcc 01-include.c -o 01-include          いつものコンパイル（実行ファイル 01-include ができる）
+gcc 01-include.c -o 01-include          -E なし：4つの工程を最後まで実行して、実行ファイル 01-include を作る
 ./01-include                            実行する
 
 gcc -E 01-include.c -o 01-include.i     プリプロセスだけ実行して、結果を 01-include.i に保存する
